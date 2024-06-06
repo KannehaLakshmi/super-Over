@@ -1,0 +1,95 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2b2b2b;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .title {
+    margin-bottom: 20px;
+  }
+  
+  .scoreboard {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .team {
+    background-color: #005BBB;
+    border-radius: 10px;
+    margin: 0 10px;
+    padding: 20px;
+    width: 200px;
+  }
+  
+  #team-pak {
+    background-color: #008000;
+  }
+  
+  .team h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .scores {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  
+  .score {
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+  }
+  
+  .total {
+    font-size: 1.5em;
+    margin-top: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn {
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5em;
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .btn.bat {
+    background-color: #ffeb3b;
+  }
+  
+  .btn.reset {
+    background-color: #f44336;
+  }
+  body {
+    text-align: center;
+    background-image: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/superover-bg.png");
+    background-size: cover;
+    background-position: auto;
+    font-family: "Poppins", sans-serif;
+    display:auto;
+   }
+  
